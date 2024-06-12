@@ -5,8 +5,11 @@ import './styles/index.css';
 import logo from './images/LogoRegistroBrigada.png';
 import './styles/basicBackground.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faBars, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { Menu } from '@headlessui/react';
+
+
 
 function App() {
   const [isLogin, setIsLogin] = useState(true);
@@ -56,7 +59,7 @@ function App() {
           <a href="https://www.instagram.com/pedro7.amm/?hl=es-la" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#FDED00] mr-4">
             <FontAwesomeIcon icon={faInstagram} />
           </a>
-          <a href="https://www.linkedin.com/in/pedro-mel%C3%A9ndez-miranda-412139238/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#FDED00] mr-4">
+          <a href="www.linkedin.com/in/pedromelendezm" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#FDED00] mr-4">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
           <a href="https://github.com/pedro7amm" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#FDED00] mr-4">
