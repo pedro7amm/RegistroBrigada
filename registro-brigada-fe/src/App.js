@@ -20,7 +20,7 @@ function App() {
       <header id="home" className=" flex items-center justify-between p-3 bg-[#020122] text-white">
         <div className="flex items-center">
           <img src={logo} alt="Logo" className="h-16 w-16 mr-4" />
-          <h1 className="text-2xl font-bold">Mi Proyecto</h1>
+          <h1 className="text-2xl font-bold">Registro Brigada</h1>
         </div>
         <nav>
           <ul className="flex space-x-4">
