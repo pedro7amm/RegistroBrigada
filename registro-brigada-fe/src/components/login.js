@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLock, faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
 
-const Login = ({ toggleForm }) => {
+const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
+  const navigate = useNavigate();
 
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);
@@ -46,6 +48,7 @@ const Login = ({ toggleForm }) => {
           <button
             className="bg-blue-500 hover:bg-[#FDED00] hover:text-[#020122] text-white font-bold py-2 px-8 rounded focus:outline-none"
             type="button"
+            onClick={() => navigate('/RegistroBrigada/menu')}
           >
             Ingresar
           </button>
@@ -54,7 +57,7 @@ const Login = ({ toggleForm }) => {
           ¿Olvidaste tu Contraseña?{' '}
           <button
             className="text-blue-500 hover:text-[#FDED00] focus:outline-none"
-            onClick={toggleForm}
+            onClick={() => navigate('/RegistroBrigada/changepassword')}
           >
             Recuperar
           </button>
