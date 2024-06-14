@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/RegistroBrigada/static/css/main.69a64a64.css",
-    "main.js": "/RegistroBrigada/static/js/main.3a6675ef.js",
+    "main.css": "/RegistroBrigada/static/css/main.164b615e.css",
+    "main.js": "/RegistroBrigada/static/js/main.0a6a1c74.js",
     "static/js/845.430ddd47.chunk.js": "/RegistroBrigada/static/js/845.430ddd47.chunk.js",
     "static/media/LogoRegistroBrigada.png": "/RegistroBrigada/static/media/LogoRegistroBrigada.f3a21d3a3a889c640073.png",
     "static/media/background.png": "/RegistroBrigada/static/media/background.c50f3b522931d6b26a33.png",
     "index.html": "/RegistroBrigada/index.html",
-    "main.69a64a64.css.map": "/RegistroBrigada/static/css/main.69a64a64.css.map",
-    "main.3a6675ef.js.map": "/RegistroBrigada/static/js/main.3a6675ef.js.map",
+    "main.164b615e.css.map": "/RegistroBrigada/static/css/main.164b615e.css.map",
+    "main.0a6a1c74.js.map": "/RegistroBrigada/static/js/main.0a6a1c74.js.map",
     "845.430ddd47.chunk.js.map": "/RegistroBrigada/static/js/845.430ddd47.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69a64a64.css",
-    "static/js/main.3a6675ef.js"
+    "static/css/main.164b615e.css",
+    "static/js/main.0a6a1c74.js"
   ]
 }
